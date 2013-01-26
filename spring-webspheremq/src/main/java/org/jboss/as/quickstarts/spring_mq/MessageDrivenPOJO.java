@@ -67,6 +67,8 @@ public class MessageDrivenPOJO implements MessageListener {
                 logger.error(e);
             }
         }
+
+        logger.info("Exiting onMessage");
     }
 
     /**
